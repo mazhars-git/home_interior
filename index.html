@@ -8,14 +8,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <section class="header py-8 bg-cover bg-center min-h-screen" style="background-image: url(/img/wall-background\ 1.png)">
+    <section class="header py-8 bg-cover bg-center bg-fixed min-h-screen" style="background-image: url(/img/wall-background\ 1.png)">
        
         <!-------------------------------- Header Section -------------------------------------------------->
 
         <div class="home container mx-auto py-5">
             
             <!-------------------------------- Main Menu Section -------------------------------------------------->
-            <div class="main-menu">
+            <div class="main-menu pb-8">
                 <ul class="flex justify-center text-white">
                     <li class="mr-3">
                         <href= class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-400 font-semibold" href="#">Home</a>
@@ -28,7 +28,7 @@
             
             <!-------------------------------- Header content Section -------------------------------------------------->
 
-            <div class="text-center text-white">
+            <div class="text-center text-white pb-8">
                 <h1 class="text-center font-extrabold text-5xl py-5">Bring Serenity to Your Place <br>
                     With Interior Plants</h1>
                 <p>
@@ -162,11 +162,11 @@
         
         <div class="grid grid-cols-2 gap-4 py-5">
             <div class="grid content-between">
-                <img src="img/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png" alt="">
-                <img src="img/high-angle-desk-arrangement-with-plants.png" alt="">
+                <img class="" src="img/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png" alt="">
+                <img class="" src="img/high-angle-desk-arrangement-with-plants.png" alt="">
             </div>
             <div>
-                <img src="img/living room.png" alt="">
+                <img class="" src="img/living room.png" alt="">
             </div>
         </div>
     </section>
@@ -230,16 +230,15 @@
     ------------------------------------------------------------------------------------------------------------->
 
      <section class="footer bg-gradient-to-r from-slate-600 to-gray-800 py-8">
-        <div class="container mx-auto grid grid-cols-5 gap-2 text-white">
-            <div class="w-48 flex-1">
+        <div class="container mx-auto grid sm:grid-cols-2 lg:grid-cols-6 gap-6 text-white">
+            <div class="col-span-2">
                 <h1 class="text-3xl text-white py-3">Newslatter</h1>
                 <form>
-                   <input class="rounded-full py-2 px-3" type="input" placeholder="Enter Your Email"> 
-                   <button class="relative right-14 rounded-full p-1 bg-gradient-to-r from-green-400 to-blue-500">Sub</button> 
+                   <input class="absolute rounded-full py-2 pl-4 pr-28 text-black" type="input" placeholder="Enter Your Email"> 
+                   <button class="relative right-0 top-1 left-52 rounded-full p-1 px-2 bg-gradient-to-r from-green-400 to-blue-500">Subscribe</button> 
                 </form>
-                
             </div>
-
+            
             <div class="">
                 <h1 class="text-1xl font-bold text-white py-3">Support</h1>
                 <ul>
@@ -266,12 +265,12 @@
                 </ul>
             </div>
 
-            <div class="gap-2">
+            <div class="">
                 <h1 class="text-1xl font-bold text-white py-3">Address</h1>
                 <p>JL. Setiabudhi No. 193 Sukasari, <br> Bandung West Java, Indonesia</p>
                 <p>hallo@daunku.com</p>
             </div>
-
+           
         </div>
 
         <div class="container mx-auto h-0.5 w-100 bg-[#fff] mt-5"></div>
